@@ -13,7 +13,8 @@
     "react-dom": "^18.2.0",
     "pdfjs-dist": "^4.0.379",
     "react-pdf": "^7.7.1",
-    "axios": "^1.6.7"
+    "axios": "^1.6.7",
+    "lucide-react": "^0.395.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
