@@ -1,0 +1,17 @@
+{
+  "name": "pdf-reader-app",
+  "version": "1.0.0",
+  "description": "PDF Reader tool built for Digital Heroes",
+  "scripts": {
+    "dev:api": "node api/index.js",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd client && npm install",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
