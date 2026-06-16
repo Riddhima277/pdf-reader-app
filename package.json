@@ -6,7 +6,7 @@
     "dev:api": "node api/index.js",
     "dev:client": "cd client && npm run dev",
     "install:all": "npm install && cd client && npm install",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
